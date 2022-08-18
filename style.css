@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #42455a;
+}
+
+#logo {
+    margin: 5px 5px;
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+    margin-right: 20px;
+}
+
+.navbar {
+    align-items: center;
+    position: relative;
+}
+
+.navbar ul {
+    display: inline-flex;
+    margin: 34px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0px 20px;
+    color: floralwhite;
+    cursor: pointer;
+
+}
+
+.active {
+    color: rgb(107, 240, 240) !important;
+}
+
+.signup-btn {
+    top: 20px;
+    right: 80px;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    border: 4px double transparent;
+    border-radius: 20px;
+    background: radial-gradient(circle at top left, orange, purple);
+    background-origin: border-box;
+    background-clip:  border-box, content-box;
+}
+.signup-btn span {
+    display: block;
+    padding: 8px 15px;
+}
+.banner {
+    position: absolute;
+    left: 130px;
+    top: 200px;
+    width: 55%;
+    color: white;
+    /* height: 70%; */
+}
+.banner h1 {
+    font-size: 35px;
+    position: relative;
+    width: 640px;
+    margin-left: 45px;
+
+}
+.banner p {
+    position: relative;
+    width: 670px;
+    margin: 40px;
+    font-size: 15px;
+    color: rgb(97, 119, 160);
+    line-height: 25px;
+}
+#image {
+    width: 60%;
+    /* float: right; */
+    position: absolute;
+    left: 50vw;
+    top: 6vh;
+}
+#image img {
+    width: 80%;
+    opacity: 0.65;
+}
+@media (max-width:768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
